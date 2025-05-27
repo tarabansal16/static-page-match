@@ -24,10 +24,15 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col items-center space-y-8">
-            <button className="bg-infotruster-green text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2 shadow-lg font-inter">
+            <a 
+              href="https://github.com/tarabansal16/infotruster"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-infotruster-green text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2 shadow-lg font-inter"
+            >
               <Download className="w-5 h-5" />
               <span>Download For Free Today</span>
-            </button>
+            </a>
             
             <div className="flex items-center space-x-4">
               <div className="relative">
