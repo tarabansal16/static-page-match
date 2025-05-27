@@ -1,3 +1,4 @@
+import { Download, ArrowRight } from "lucide-react";
 
 const Header = () => {
   return (
@@ -31,7 +32,10 @@ const Header = () => {
             <a href="#home" className="text-gray-700 hover:text-infotruster-blue transition-colors font-inter">
               Home
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-infotruster-blue transition-colors font-inter">
+            <a 
+              href="mailto:avanitarabansal@gmail.com" 
+              className="text-gray-700 hover:text-infotruster-blue transition-colors font-inter"
+            >
               Contact Us
             </a>
           </nav>
