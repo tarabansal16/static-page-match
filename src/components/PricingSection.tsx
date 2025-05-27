@@ -50,9 +50,14 @@ const PricingSection = () => {
               ))}
             </div>
             
-            <button className={`w-full ${plan.buttonStyle} text-white py-4 rounded-full text-lg font-semibold transition-colors font-inter`}>
+            <a 
+              href="https://github.com/tarabansal16/infotruster"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`w-full ${plan.buttonStyle} text-white py-4 rounded-full text-lg font-semibold transition-colors font-inter inline-block text-center`}
+            >
               {plan.buttonText}
-            </button>
+            </a>
           </div>
         </div>
       </div>
