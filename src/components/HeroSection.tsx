@@ -1,4 +1,3 @@
-
 import { Download, ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
@@ -47,7 +46,7 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <span className="text-gray-600 font-semibold font-inter">
-                  Join 400+ users today!
+                  Join 50+ users today!
                 </span>
               </div>
             </div>
