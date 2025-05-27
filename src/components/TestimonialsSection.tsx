@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
     {
       text: "The concise summaries saved me so much time and spared me from all the confusing legal jargon. It's a game-changer for anyone who wants to stay informed without the hassle.",
       author: "Yijun Xue",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
+      avatar: "https://images.unsplash.com/photo-1494790108755-2616b9997563?w=80&h=80&fit=crop&crop=face",
       rating: 5
     },
     {
@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
     {
       text: "The Outlines Risks feature is fantastic! It quickly shows the specific risks, making it simple to understand what I'm agreeing to. Highly recommend!",
       author: "Channing Lee",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b9997563?w=80&h=80&fit=crop&crop=face", 
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face", 
       rating: 5
     }
   ];
@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
                 <img 
                   src={testimonial.avatar} 
                   alt={testimonial.author}
-                  className="w-12 h-12 rounded-full"
+                  className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
                   <p className="text-infotruster-blue font-semibold font-inter">
