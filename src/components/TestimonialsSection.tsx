@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
     {
       text: "The concise summaries saved me so much time and spared me from all the confusing legal jargon. It's a game-changer for anyone who wants to stay informed without the hassle.",
       author: "Yijun Xue",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b9997563?w=80&h=80&fit=crop&crop=face",
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face",
       rating: 5
     },
     {
